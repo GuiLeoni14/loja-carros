@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMóveis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #111;
+      margin-bottom: 30px;
+    }
+
+    .car-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .car-card {
+      background-color: #111;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .car-card h2 {
+      margin: 0 0 15px 0;
+      font-size: 24px;
+    }
+
+    .car-card .price span {
+      color: #fff;
+    }
+
+    .price,
+    span {
+      color: #febe01;
+      font-weight: bold;
+    }
+
+    .car-info {
+      color: #b2b2b2;
+      margin: 5px 0;
+    }
+
+    .car-specs {
+      color: #b2b2b2;
+      margin: 10px 0;
+    }
+
+    .manual {
+      color: #febe01;
+    }
+
+    .automatico {
+      color: #febe01;
+    }
+
+    .proposal-btn {
+      background-color: #febe01;
+      color: #332200;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .proposal-btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="car-container">
+    <h1>AutoMóveis</h1>
+
+    <div class="car-card">
+      <h2><span class="price"><span>Valor: </span>R$75.990</span></h2>
+      <div class="car-info">Fiat <span>Strada</span> | Ano <span>2019</span></div>
+      <div class="car-specs">
+        Motor <span>1.5</span> | Câmbio <span class="manual">manual</span>
+      </div>
+      <div class="car-info"><span>42.000</span> KMs rodados</div>
+      <button class="proposal-btn">Fazer proposta</button>
+    </div>
+
+    <div class="car-card">
+      <h2><span class="price"><span>Valor: </span>R$45.990</span></h2>
+      <div class="car-info">Fiat <span>Pálio</span> | Ano <span>2014</span></div>
+      <div class="car-specs">
+        Motor <span>1.4</span> | Câmbio <span class="manual">manual</span>
+      </div>
+      <div class="car-info"><span>105.000</span> KMs rodados</div>
+      <button class="proposal-btn">Fazer proposta</button>
+    </div>
+
+    <div class="car-card">
+      <h2><span class="price"><span>Valor: </span>R$60.990</span></h2>
+      <div class="car-info">VW <span>Gol</span> | Ano <span>2018</span></div>
+      <div class="car-specs">
+        Motor <span>1.6</span> | Câmbio <span class="automatico">automático</span>
+      </div>
+      <div class="car-info"><span>62.000</span> KMs rodados</div>
+      <button class="proposal-btn">Fazer proposta</button>
+    </div>
+  </div>
+</body>
+
+</html>
