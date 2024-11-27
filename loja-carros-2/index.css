@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.s-hero {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.s-hero h1 {
+  text-align: center;
+  font-weight: 800;
+  display: block;
+  font-size: 32px;
+}
+
+.s-hero img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.s-cars{
+  padding: 20px 0px;
+}
+
+.s-cars .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.car {
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.car img{
+  max-width: 50%;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.car img:hover{
+  opacity: 0.6;
+}
+
+.car ul{
+  flex: 1;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+.car strong {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.car li {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  color: #cac9c9;
+}
+
+.car span {
+  color: #febe01;
+  font-weight: bold;
+}
+
+.car button {
+  background-color: #febe01;
+  color: #332200;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: all .3s;
+}
+.car button:hover{
+  opacity: 0.6;
+}
