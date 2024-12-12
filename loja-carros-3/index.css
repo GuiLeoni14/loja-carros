@@ -175,4 +175,8 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
   }
+
+  .s-cars .container{
+    grid-template-columns: 1fr;
+  }
 }
